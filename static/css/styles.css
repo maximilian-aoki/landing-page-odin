@@ -1,3 +1,4 @@
+/* initial body declarations */
 body {
   margin: 0;
   min-height: 100vh;
@@ -5,7 +6,42 @@ body {
 
 /* just for debugging */
 * {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
-/* just for debugging */
 
+/* cosmetic changes */
+header,
+footer {
+  background-color: #1F2937;
+  color: white;
+}
+
+.testimonial {
+  background-color: #E5E7EB;
+}
+
+.modal {
+  background-color: #3882F6;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin:0;
+  padding:0;
+}
+
+/* add flex elements */
